@@ -1,0 +1,235 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1479,827" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Flowchart DisplayName="DEMO" sap:VirtualizedContainerService.HintSize="634,636" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
+        <av:Size x:Key="ShapeSize">60,75</av:Size>
+        <av:PointCollection x:Key="ConnectorLocation">300,77.5 300,127.5</av:PointCollection>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Flowchart.StartNode>
+      <x:Reference>__ReferenceID1</x:Reference>
+    </Flowchart.StartNode>
+    <FlowStep x:Name="__ReferenceID1">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">200,127.5</av:Point>
+          <av:Size x:Key="ShapeSize">200,51</av:Size>
+          <av:PointCollection x:Key="ConnectorLocation">300,178.5 300,228.5</av:PointCollection>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Start Execute Demo&quot;]">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:LogMessage>
+      <FlowStep.Next>
+        <FlowStep x:Name="__ReferenceID0">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <av:Point x:Key="ShapeLocation">200,228.5</av:Point>
+              <av:Size x:Key="ShapeSize">200,51</av:Size>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: inFlow On-Premise - Free Edition" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" Timeout="60" Version="V1">
+            <uix:NApplicationCard.Body>
+              <ActivityAction x:TypeArguments="x:Object">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,526" sap2010:WorkflowViewState.IdRef="Sequence_1">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ClickType="Single" DisplayName="Click 'VENDOR'" sap:VirtualizedContainerService.HintSize="334,166" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable DesignTimeRectangle="38, 331, 68, 76" FriendlyName="'WindowsForms10.Window.8…'" FullSelectorArgument="&lt;wnd ctrlname='ctrlMainPanel' /&gt;&lt;wnd ctrlname='CtrlOverview' /&gt;&lt;wnd ctrlname='ctrlCustomPanel17' /&gt;&lt;wnd ctrlname='splitContainer1' /&gt;&lt;wnd ctrlname='ctrlVendorPic' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='ctrlMainPanel' /&gt;&lt;wnd ctrlname='CtrlOverview' /&gt;&lt;wnd ctrlname='ctrlCustomPanel17' /&gt;&lt;wnd ctrlname='splitContainer1' /&gt;&lt;wnd ctrlname='ctrlVendorPic' /&gt;" ImageBase64="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" InformativeScreenshot="a8eb72833258468b7157af35726f7ef6.png" ScopeSelectorArgument="&lt;wnd app='inflow.exe' ctrlname='FmNewRootWindow' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <uix:Target DesignTimeRectangle="-5, 420, 155, 23" ElementType="Text" FriendlyName="'VENDOR'" FullSelectorArgument="&lt;wnd ctrlname='ctrlMainPanel' /&gt;&lt;wnd ctrlname='CtrlOverview' /&gt;&lt;wnd ctrlname='ctrlCustomPanel17' /&gt;&lt;wnd ctrlname='splitContainer1' /&gt;&lt;wnd ctrlname='ctrlVendorLink' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='ctrlMainPanel' /&gt;&lt;wnd ctrlname='CtrlOverview' /&gt;&lt;wnd ctrlname='ctrlCustomPanel17' /&gt;&lt;wnd ctrlname='splitContainer1' /&gt;&lt;wnd ctrlname='ctrlVendorLink' check:text='VENDOR' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAJgAAAAbCAYAAACA5kZXAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJ9SURBVHhe7ZlNzsIgEEC/c/YULrkIB+EcrF26MiEuTPQG80Fl6kChRVoSSOYlJFqHHzvPAfXv/X7D6/WC5/MJj8cD7vc73G43uF6vcLlcgGGOwIIxTWHBmKawYExTWDCmKSwY0xQWjGlKR4IZUGKCaZKg/ZU1YYxRwj52z/NN+sFoLF4L0HJ+TSjjL+TGFyCEBKWNXc0GRoMUYX/XT5t1r+z7sP2lnWdkuqpgeKOTAjiMAuFuvA+oFWwSai1HsWCkzcL4YMJePzqH49f4kehri4wEisFExNJkhSRgrPBVZdVnQ7Aw1lYuGyvmSupaVHH9OJ+xNBHZgCYi0TGz8ygcS8CojnV2BtvaJtev1Qgmtd26XNLiKlYsGILrsW0J+F7LVR0ck86fnwfHY8FOI3uzE9VtW4AQGouPAwl+FsyCa0Lp4+dJvOBEmvw8LNj54BYT3e1UEvBavuWqHSaZiFAjWCxAZu0xWn7Wh2HpeeyWKv37S50ZB6E/wVLJXxIZVoZ6wb7PF6GqBItkOShYsmW+SIxCh4KtE2AzkDz8lwiArGMjaTsUTNiAgd2a6VKwOFG5RB8TzEKlqhKs0Ra5nOXGPXshfQoWbJPp7dFxWDA6do1gLQ/5KOvA5y9Hp4LRT3l6e3QcF8yCYvnfx8oFQzlpn9S1EByz5GcKvAd7FbFnuhVs+QT7lrrHpwhGpHBtXzD3Q6sCufSJqhVZd3iGIt8KozFL1rZ+bQz6FWzZShJJ9GBithomZlNGKkVCsGw7+a+i5NoGP491LNj+FnGaYKRSlAhW8me3qfizO/M2yQdg62zXJ10LxowPC8Y0hQVjmsKCMU1hwZimsGBMQwD+AegBeTLXgsyxAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Name'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,226" sap2010:WorkflowViewState.IdRef="NTypeInto_1" Text="Yonatan Mangisto">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable DesignTimeRectangle="427, 156, 187, 20" ElementType="InputBox" FriendlyName="'Basic'" FullSelectorArgument="&lt;wnd ctrlname='ctrlMainPanel' /&gt;&lt;wnd ctrlname='VendorContainerView' /&gt;&lt;wnd ctrlname='ctrlMainSplitPanel' /&gt;&lt;wnd ctrlname='VendorDetailsView' /&gt;&lt;wnd ctrlname='ctrlToptoolbarSplitPanel' /&gt;&lt;wnd ctrlname='ctrlTab' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='Vendor Info' /&gt;&lt;wnd ctrlname='txtVendorName' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='ctrlMainPanel' /&gt;&lt;wnd ctrlname='VendorContainerView' /&gt;&lt;wnd ctrlname='ctrlMainSplitPanel' /&gt;&lt;wnd ctrlname='VendorDetailsView' /&gt;&lt;wnd ctrlname='ctrlToptoolbarSplitPanel' /&gt;&lt;wnd ctrlname='ctrlTab' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='Vendor Info' /&gt;&lt;wnd ctrlname='txtVendorName' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAL8AAAAYCAYAAACr8yxQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABnSURBVHhe7dJBDcAwEMCw8WdyKLtXK+1RAosthUGeBVHmJ+vMPzNSou0zP/yd+ckyP1nmJ8v8ZJmfLPOTZX6yzE+W+ckyP1nmJ8v8ZJmfLPOTZX6yzE+W+cm6zi8V2s78UGN+otZ6AeMpvzhDxFqeAAAAAElFTkSuQmCC" InformativeScreenshot="aaf2543510f97e6217168a58cb47e649.png" ScopeSelectorArgument="&lt;wnd app='inflow.exe' ctrlname='FmNewRootWindow' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <uix:Target DesignTimeRectangle="299, 159, 122, 15" ElementType="Text" FriendlyName="'Name'" FullSelectorArgument="&lt;wnd ctrlname='ctrlMainPanel' /&gt;&lt;wnd ctrlname='VendorContainerView' /&gt;&lt;wnd ctrlname='ctrlMainSplitPanel' /&gt;&lt;wnd ctrlname='VendorDetailsView' /&gt;&lt;wnd ctrlname='ctrlToptoolbarSplitPanel' /&gt;&lt;wnd ctrlname='ctrlTab' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='Vendor Info' /&gt;&lt;wnd ctrlname='label67' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='ctrlMainPanel' /&gt;&lt;wnd ctrlname='VendorContainerView' /&gt;&lt;wnd ctrlname='ctrlMainSplitPanel' /&gt;&lt;wnd ctrlname='VendorDetailsView' /&gt;&lt;wnd ctrlname='ctrlToptoolbarSplitPanel' /&gt;&lt;wnd ctrlname='ctrlTab' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='Vendor Info' /&gt;&lt;wnd ctrlname='label67' check:text='Name' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAH4AAAATCAYAAABWSbkMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEkSURBVGhD7ZbRDYQgDIZvTidhEQZhDvZgjV4Bq6UaTx+45K7/l5jYCvjwlcKLgEsg3ikQ7xSIdwrEO+VcfEkUloViXmOh5SPZNPg9LsUvVjLE/w0X4llwjrTobW/FbwXSn31ooRQCpcTz128hFaK6no43MsU1fyg2MIVr8fyaoxI6iK+yWK74G75V8SxRJkqBDPEuuP5DCqGkMBYbmMJH8U1wSKzS5i21ELR4VRSHWBeNKaBhHTCLG+JrGPqOPBFfd6u0771NPxWv16iPHgtmcEv8Ji6bTsCSzo+Bp+LHYgLzuSmeaTm1q+2YFovMJ+I5Umd8uwDK0QKmcV880y5eKt/jtT2HyHcB6QDPxPcYbf6bnIsHfw/EOwXinQLxToF4lxC9AQFpkeJScE51AAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NTypeInto.Target>
+                  </uix:NTypeInto>
+                </Sequence>
+              </ActivityAction>
+            </uix:NApplicationCard.Body>
+            <uix:NApplicationCard.TargetApp>
+              <uix:TargetApp Area="-8, -8, 1936, 1056" FilePath="C:\Program Files\inFlow Inventory\inflow.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAS+SURBVFhHtZRNaCNlGMdHi7CbLhUPK11zEs8q3gS3Tdt0krRNv9J2MeJhFRQET7r34oKnCh49eJUkTdt8Ne22Sbafu2334CIIshclC4ogJpmPzExqdV//78ekMcnWnd3mgR/vBGbe58fzEclpmPshydoPvWHuT/+IZ2LesZkh5l2OdTDLORQczdk8qh3NfXd871o3EDc6DHNvmnLN2Js2AYEIaBAREuYBp43IL7V7c68AcaPDMHanJGNvKozTAgTPYJoYjxNhMkh+KvKwdjjnBuJGh2HsQGAHAjuTFk7CJJgIJIQIk7FFGlojKlKsHc5CYFbc6DCM7QlKuLo9aQECEdAgImR4a1qrYt2dKdYOZt0QETc6DGMLAlsQ2JqwAKESDCYC6hJcpLU9M0XrzowbiBsdRvX2uFTdGg/jtABhEkyEy/CKNIiIivCqQGA/VMQWuYG40WEwgdvjYb0gBGzaiiB505xgg4rATbfpqaKaD0rVQjCs54MWIHohSKqFx4u0qUrR3J1yA3Gjw9BzY1I1NxbGaQHCJIQIqtIqwmQa5+RZBTYhsAmBTSFg8x8RVMUWaaqKsT1ZRDXcQNzoMPSNUUoYWNrGKNE3KWeI1KvCJbBBRXN7wk236alCuzUCgZGPcJ4AQiUYtogtk2+UgcBpex4iudvAMDsOdT0gqWuBl7T1QBwQbR0CVIKJcJmWijRVBQIPkLy3RUBNy5KWli/ivKqk5RAj4wupqzb+aS3rv65m/XF1zX+srQUsSNwHaQgkGBujDEgIxhIQAMEEBJLYoGVU4mOzMPGCUWhqgZocpryrpIb/ACYwIMHJyIaa8RkQOQZEzfosbc3/hX4r0KuvB7qR3IUKuLTcqAutcCE5P/EbCV1I7qrmJ7qr+fGLZn7yeSPfpv9KwkuZryS8REkOc1KCtMxQM4JV3yEq8DIqIr4+h6isDFEgMEQ4VETI1EWETEaOaVnfBYiIr88huMDgPE7CsCXaisgRfdV/Qcucp8DSIGW+sjxIGLZIg0zlVAQCgbqAvj4iGblgFyryNvgAA/shhvV9tOk1fY1uzhO0qhwfoMwDUl4SEs0yp62J6CkIJLkABlRC4tfRmgfgBL//wu8TiERBN2DvnRnlRQ+FCzAJDqrSRsQbUVOYgaTMvkVL6BrLmBHVHliIYGB932urvsuAvXdm1AUWPYRhi4BKq0hOTXh7lBWv9DMhEtpCoStsNcwJ5T625jIQWc6IcgwCMc+npVj/P4DgmYs0yrCqMIk/lZWhmWp2pEuFhJqSezGsK6dzApiInEMVXqQt+t8oRSEQ9fSWov03cH4FgQUkBwMLSL5QoSwNfAuJn1hrlgd/A9+Am6jIFvgbM6JBJItqfK2mhr+E2DukMCsZmWf8vyDx69Lv8bekSnyoCxJvQujIrkhDayxI3FCT3kvHu59LeiYovj7HUJZ8Uil2lc7KZ+BRU2t+gMQVIN7uUJQwK5iR99Aiqz4jAC3KKUuDPUC82aHAjFCBME6LDyvgEjl10dOjYJs6GkwgCoFIn1WK9hE8EyGSq0AAiDc7FEhKBUIQMABhQKQc7V9VYgOXKmhRRwOJKK+WI315JFeACn4tR/s+qSU8z6mL/eLNJwlJ+hfhsOg0+PJWnQAAAABJRU5ErkJggg==" InformativeScreenshot="55826ffa283a0b98b65a8c370c6ff2ea.png" Selector="&lt;wnd app='inflow.exe' ctrlname='FmNewRootWindow' /&gt;" />
+            </uix:NApplicationCard.TargetApp>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </uix:NApplicationCard>
+        </FlowStep>
+      </FlowStep.Next>
+    </FlowStep>
+    <x:Reference>__ReferenceID0</x:Reference>
+    <FlowStep>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">190,297</av:Point>
+          <av:Size x:Key="ShapeSize">200,66</av:Size>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Sequence sap:VirtualizedContainerService.HintSize="476,1439" sap2010:WorkflowViewState.IdRef="Sequence_3">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: inFlow On-Premise - Free Edition" sap:VirtualizedContainerService.HintSize="434,1347" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" Version="V1">
+          <uix:NApplicationCard.Body>
+            <ActivityAction x:TypeArguments="x:Object">
+              <ActivityAction.Argument>
+                <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+              </ActivityAction.Argument>
+              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,1058" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <uix:NClick ClickType="Single" DisplayName="Click 'WindowsForms10.Window.8…'" sap:VirtualizedContainerService.HintSize="334,166" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable DesignTimeRectangle="38, 331, 68, 76" FriendlyName="'WindowsForms10.Window.8…'" FullSelectorArgument="&lt;wnd ctrlname='ctrlMainPanel' /&gt;&lt;wnd ctrlname='CtrlOverview' /&gt;&lt;wnd ctrlname='ctrlCustomPanel17' /&gt;&lt;wnd ctrlname='splitContainer1' /&gt;&lt;wnd ctrlname='ctrlVendorPic' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='ctrlMainPanel' /&gt;&lt;wnd ctrlname='CtrlOverview' /&gt;&lt;wnd ctrlname='ctrlCustomPanel17' /&gt;&lt;wnd ctrlname='splitContainer1' /&gt;&lt;wnd ctrlname='ctrlVendorPic' /&gt;" ImageBase64="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" InformativeScreenshot="bdd6729a0c9b0ba0b84ccb1e4cda00a4.png" ScopeSelectorArgument="&lt;wnd app='inflow.exe' ctrlname='FmNewRootWindow' /&gt;" SearchSteps="Selector, FuzzySelector, Image" />
+                  </uix:NClick.Target>
+                </uix:NClick>
+                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Name'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,226" sap2010:WorkflowViewState.IdRef="NTypeInto_2" Text="Yonatan Mangisto">
+                  <uix:NTypeInto.Target>
+                    <uix:TargetAnchorable DesignTimeRectangle="427, 156, 187, 20" ElementType="InputBox" FriendlyName="'Basic'" FullSelectorArgument="&lt;wnd ctrlname='ctrlMainPanel' /&gt;&lt;wnd ctrlname='VendorContainerView' /&gt;&lt;wnd ctrlname='ctrlMainSplitPanel' /&gt;&lt;wnd ctrlname='VendorDetailsView' /&gt;&lt;wnd ctrlname='ctrlToptoolbarSplitPanel' /&gt;&lt;wnd ctrlname='ctrlTab' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='Vendor Info' /&gt;&lt;wnd ctrlname='txtVendorName' /&gt;&lt;ctrl name='Basic' role='editable text' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='ctrlMainPanel' /&gt;&lt;wnd ctrlname='VendorContainerView' /&gt;&lt;wnd ctrlname='ctrlMainSplitPanel' /&gt;&lt;wnd ctrlname='VendorDetailsView' /&gt;&lt;wnd ctrlname='ctrlToptoolbarSplitPanel' /&gt;&lt;wnd ctrlname='ctrlTab' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='Vendor Info' /&gt;&lt;wnd ctrlname='txtVendorName' /&gt;&lt;ctrl name='Basic' role='editable text' automationid='' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAL8AAAAYCAYAAACr8yxQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABnSURBVHhe7dJBDcAwEMCw8ad3gLpXK+1RAosthUGeBVHmJ+vMPzNSou0zP/yd+ckyP1nmJ8v8ZJmfLPOTZX6yzE+W+ckyP1nmJ8v8ZJmfLPOTZX6yzE+W+cm6zi8V2s78UGN+otZ6AT+IiRMDM3QQAAAAAElFTkSuQmCC" InformativeScreenshot="8c53b80945eaf09dbb9c5b57d4ea8b7f.png" ScopeSelectorArgument="&lt;wnd app='inflow.exe' ctrlname='FmNewRootWindow' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                          <uix:Target DesignTimeRectangle="299, 159, 122, 15" ElementType="Text" FriendlyName="'Name'" FullSelectorArgument="&lt;wnd ctrlname='ctrlMainPanel' /&gt;&lt;wnd ctrlname='VendorContainerView' /&gt;&lt;wnd ctrlname='ctrlMainSplitPanel' /&gt;&lt;wnd ctrlname='VendorDetailsView' /&gt;&lt;wnd ctrlname='ctrlToptoolbarSplitPanel' /&gt;&lt;wnd ctrlname='ctrlTab' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='Vendor Info' /&gt;&lt;wnd ctrlname='label67' /&gt;&lt;ctrl name='Name' role='text' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='ctrlMainPanel' /&gt;&lt;wnd ctrlname='VendorContainerView' /&gt;&lt;wnd ctrlname='ctrlMainSplitPanel' /&gt;&lt;wnd ctrlname='VendorDetailsView' /&gt;&lt;wnd ctrlname='ctrlToptoolbarSplitPanel' /&gt;&lt;wnd ctrlname='ctrlTab' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='Vendor Info' /&gt;&lt;wnd ctrlname='label67' /&gt;&lt;ctrl name='Name' role='text' automationid='' check:text='Name' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAH4AAAATCAYAAABWSbkMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEkSURBVGhD7ZbRDYQgDIZvTidhEQZhDvZgjV4Bq6UaTx+45K7/l5jYCvjwlcKLgEsg3ikQ7xSIdwrEO+VcfEkUloViXmOh5SPZNPg9LsUvVjLE/w0X4llwjrTobW/FbwXSn31ooRQCpcTz128hFaK6no43MsU1fyg2MIVr8fyaoxI6iK+yWK74G75V8SxRJkqBDPEuuP5DCqGkMBYbmMJH8U1wSKzS5i21ELR4VRSHWBeNKaBhHTCLG+JrGPqOPBFfd6u0771NPxWv16iPHgtmcEv8Ji6bTsCSzo+Bp+LHYgLzuSmeaTm1q+2YFovMJ+I5Umd8uwDK0QKmcV880y5eKt/jtT2HyHcB6QDPxPcYbf6bnIsHfw/EOwXinQLxToF4lxC9AQFpkeJScE51AAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:NTypeInto.Target>
+                </uix:NTypeInto>
+                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Name'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,226" sap2010:WorkflowViewState.IdRef="NTypeInto_3" Text="David">
+                  <uix:NTypeInto.Target>
+                    <uix:TargetAnchorable DesignTimeRectangle="427, 336, 187, 20" ElementType="InputBox" FriendlyName="'Balance'" FullSelectorArgument="&lt;wnd ctrlname='ctrlMainPanel' /&gt;&lt;wnd ctrlname='VendorContainerView' /&gt;&lt;wnd ctrlname='ctrlMainSplitPanel' /&gt;&lt;wnd ctrlname='VendorDetailsView' /&gt;&lt;wnd ctrlname='ctrlToptoolbarSplitPanel' /&gt;&lt;wnd ctrlname='ctrlTab' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='Vendor Info' /&gt;&lt;wnd ctrlname='textBox18' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='ctrlMainPanel' /&gt;&lt;wnd ctrlname='VendorContainerView' /&gt;&lt;wnd ctrlname='ctrlMainSplitPanel' /&gt;&lt;wnd ctrlname='VendorDetailsView' /&gt;&lt;wnd ctrlname='ctrlToptoolbarSplitPanel' /&gt;&lt;wnd ctrlname='ctrlTab' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='Vendor Info' /&gt;&lt;wnd ctrlname='textBox18' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAL8AAAAYCAYAAACr8yxQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABnSURBVHhe7dJBDcAwEMCw8ad3gLpXK+1RAosthUGeBVHmJ+vMPzNSou0zP/yd+ckyP1nmJ8v8ZJmfLPOTZX6yzE+W+ckyP1nmJ8v8ZJmfLPOTZX6yzE+W+cm6zi8V2s78UGN+otZ6AT+IiRMDM3QQAAAAAElFTkSuQmCC" InformativeScreenshot="6eb69367aa1585c031efbc6905714f3e.png" ScopeSelectorArgument="&lt;wnd app='inflow.exe' ctrlname='FmNewRootWindow' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                          <uix:Target DesignTimeRectangle="299, 339, 122, 15" ElementType="Text" FriendlyName="'Name'" FullSelectorArgument="&lt;wnd ctrlname='ctrlMainPanel' /&gt;&lt;wnd ctrlname='VendorContainerView' /&gt;&lt;wnd ctrlname='ctrlMainSplitPanel' /&gt;&lt;wnd ctrlname='VendorDetailsView' /&gt;&lt;wnd ctrlname='ctrlToptoolbarSplitPanel' /&gt;&lt;wnd ctrlname='ctrlTab' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='Vendor Info' /&gt;&lt;wnd ctrlname='label60' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='ctrlMainPanel' /&gt;&lt;wnd ctrlname='VendorContainerView' /&gt;&lt;wnd ctrlname='ctrlMainSplitPanel' /&gt;&lt;wnd ctrlname='VendorDetailsView' /&gt;&lt;wnd ctrlname='ctrlToptoolbarSplitPanel' /&gt;&lt;wnd ctrlname='ctrlTab' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='Vendor Info' /&gt;&lt;wnd ctrlname='label60' check:text='Name' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAH4AAAATCAYAAABWSbkMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEkSURBVGhD7ZbRDYQgDIZvTidhEQZhDvZgjV4Bq6UaTx+45K7/l5jYCvjwlcKLgEsg3ikQ7xSIdwrEO+VcfEkUloViXmOh5SPZNPg9LsUvVjLE/w0X4llwjrTobW/FbwXSn31ooRQCpcTz128hFaK6no43MsU1fyg2MIVr8fyaoxI6iK+yWK74G75V8SxRJkqBDPEuuP5DCqGkMBYbmMJH8U1wSKzS5i21ELR4VRSHWBeNKaBhHTCLG+JrGPqOPBFfd6u0771NPxWv16iPHgtmcEv8Ji6bTsCSzo+Bp+LHYgLzuSmeaTm1q+2YFovMJ+I5Umd8uwDK0QKmcV880y5eKt/jtT2HyHcB6QDPxPcYbf6bnIsHfw/EOwXinQLxToF4lxC9AQFpkeJScE51AAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:NTypeInto.Target>
+                </uix:NTypeInto>
+                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Phone'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,226" sap2010:WorkflowViewState.IdRef="NTypeInto_4" Text="0526749939">
+                  <uix:NTypeInto.Target>
+                    <uix:TargetAnchorable DesignTimeRectangle="427, 361, 187, 20" ElementType="InputBox" FriendlyName="'WindowsForms10.EDIT.app…'" FullSelectorArgument="&lt;wnd ctrlname='ctrlMainPanel' /&gt;&lt;wnd ctrlname='VendorContainerView' /&gt;&lt;wnd ctrlname='ctrlMainSplitPanel' /&gt;&lt;wnd ctrlname='VendorDetailsView' /&gt;&lt;wnd ctrlname='ctrlToptoolbarSplitPanel' /&gt;&lt;wnd ctrlname='ctrlTab' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='Vendor Info' /&gt;&lt;wnd ctrlname='textBox2' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='ctrlMainPanel' /&gt;&lt;wnd ctrlname='VendorContainerView' /&gt;&lt;wnd ctrlname='ctrlMainSplitPanel' /&gt;&lt;wnd ctrlname='VendorDetailsView' /&gt;&lt;wnd ctrlname='ctrlToptoolbarSplitPanel' /&gt;&lt;wnd ctrlname='ctrlTab' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='Vendor Info' /&gt;&lt;wnd ctrlname='textBox2' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAL8AAAAYCAYAAACr8yxQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABnSURBVHhe7dJBDcAwEMCw8ad3gLpXK+1RAosthUGeBVHmJ+vMPzNSou0zP/yd+ckyP1nmJ8v8ZJmfLPOTZX6yzE+W+ckyP1nmJ8v8ZJmfLPOTZX6yzE+W+cm6zi8V2s78UGN+otZ6AT+IiRMDM3QQAAAAAElFTkSuQmCC" InformativeScreenshot="fdbe4e028d289011f287d7d062ba522b.png" ScopeSelectorArgument="&lt;wnd app='inflow.exe' ctrlname='FmNewRootWindow' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                          <uix:Target DesignTimeRectangle="299, 364, 122, 15" ElementType="Text" FriendlyName="'Phone'" FullSelectorArgument="&lt;wnd ctrlname='ctrlMainPanel' /&gt;&lt;wnd ctrlname='VendorContainerView' /&gt;&lt;wnd ctrlname='ctrlMainSplitPanel' /&gt;&lt;wnd ctrlname='VendorDetailsView' /&gt;&lt;wnd ctrlname='ctrlToptoolbarSplitPanel' /&gt;&lt;wnd ctrlname='ctrlTab' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='Vendor Info' /&gt;&lt;wnd ctrlname='label65' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='ctrlMainPanel' /&gt;&lt;wnd ctrlname='VendorContainerView' /&gt;&lt;wnd ctrlname='ctrlMainSplitPanel' /&gt;&lt;wnd ctrlname='VendorDetailsView' /&gt;&lt;wnd ctrlname='ctrlToptoolbarSplitPanel' /&gt;&lt;wnd ctrlname='ctrlTab' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='Vendor Info' /&gt;&lt;wnd ctrlname='label65' check:text='Phone' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAH4AAAATCAYAAABWSbkMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADwSURBVGhD7ZXLEcMgDERTpyqhEQqhDvdBGxuDP5Gxw5gMHBztm/EB8HJ5kniBmITijULxRqF4o1C8Ua7FxwAnAik+F6I695iWFXkgFfGl2AleHLJ7in88DeIjghP4tLmee/+ZBnl/JxXJdqbuSTkXEFpzpDv3xec93fFq9E8eMgtdV/Pyy1lDLgYHOVYF6UjTG797KAvjsE5dq4um8kSccut/mfIe0pOGUa+oCTxl0xNxV3xZbLoQSE/6i88Cdbal43WOjGSA+Flh9Y3/IUe6M0T80r3buK78V81xzI/kWjz5eyjeKBRvFIo3CsWbBHgDbN+JsOh4dvIAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:NTypeInto.Target>
+                </uix:NTypeInto>
+              </Sequence>
+            </ActivityAction>
+          </uix:NApplicationCard.Body>
+          <uix:NApplicationCard.TargetApp>
+            <uix:TargetApp Area="0, 0, 0, 0" FilePath="C:\Program Files\inFlow Inventory\inflow.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAS+SURBVFhHtZRNaCNlGMdHi7CbLhUPK11zEs8q3gS3Tdt0krRNv9J2MeJhFRQET7r34oKnCh49eJUkTdt8Ne22Sbafu2334CIIshclC4ogJpmPzExqdV//78ekMcnWnd3mgR/vBGbe58fzEclpmPshydoPvWHuT/+IZ2LesZkh5l2OdTDLORQczdk8qh3NfXd871o3EDc6DHNvmnLN2Js2AYEIaBAREuYBp43IL7V7c68AcaPDMHanJGNvKozTAgTPYJoYjxNhMkh+KvKwdjjnBuJGh2HsQGAHAjuTFk7CJJgIJIQIk7FFGlojKlKsHc5CYFbc6DCM7QlKuLo9aQECEdAgImR4a1qrYt2dKdYOZt0QETc6DGMLAlsQ2JqwAKESDCYC6hJcpLU9M0XrzowbiBsdRvX2uFTdGg/jtABhEkyEy/CKNIiIivCqQGA/VMQWuYG40WEwgdvjYb0gBGzaiiB505xgg4rATbfpqaKaD0rVQjCs54MWIHohSKqFx4u0qUrR3J1yA3Gjw9BzY1I1NxbGaQHCJIQIqtIqwmQa5+RZBTYhsAmBTSFg8x8RVMUWaaqKsT1ZRDXcQNzoMPSNUUoYWNrGKNE3KWeI1KvCJbBBRXN7wk236alCuzUCgZGPcJ4AQiUYtogtk2+UgcBpex4iudvAMDsOdT0gqWuBl7T1QBwQbR0CVIKJcJmWijRVBQIPkLy3RUBNy5KWli/ivKqk5RAj4wupqzb+aS3rv65m/XF1zX+srQUsSNwHaQgkGBujDEgIxhIQAMEEBJLYoGVU4mOzMPGCUWhqgZocpryrpIb/ACYwIMHJyIaa8RkQOQZEzfosbc3/hX4r0KuvB7qR3IUKuLTcqAutcCE5P/EbCV1I7qrmJ7qr+fGLZn7yeSPfpv9KwkuZryS8REkOc1KCtMxQM4JV3yEq8DIqIr4+h6isDFEgMEQ4VETI1EWETEaOaVnfBYiIr88huMDgPE7CsCXaisgRfdV/Qcucp8DSIGW+sjxIGLZIg0zlVAQCgbqAvj4iGblgFyryNvgAA/shhvV9tOk1fY1uzhO0qhwfoMwDUl4SEs0yp62J6CkIJLkABlRC4tfRmgfgBL//wu8TiERBN2DvnRnlRQ+FCzAJDqrSRsQbUVOYgaTMvkVL6BrLmBHVHliIYGB932urvsuAvXdm1AUWPYRhi4BKq0hOTXh7lBWv9DMhEtpCoStsNcwJ5T625jIQWc6IcgwCMc+npVj/P4DgmYs0yrCqMIk/lZWhmWp2pEuFhJqSezGsK6dzApiInEMVXqQt+t8oRSEQ9fSWov03cH4FgQUkBwMLSL5QoSwNfAuJn1hrlgd/A9+Am6jIFvgbM6JBJItqfK2mhr+E2DukMCsZmWf8vyDx69Lv8bekSnyoCxJvQujIrkhDayxI3FCT3kvHu59LeiYovj7HUJZ8Uil2lc7KZ+BRU2t+gMQVIN7uUJQwK5iR99Aiqz4jAC3KKUuDPUC82aHAjFCBME6LDyvgEjl10dOjYJs6GkwgCoFIn1WK9hE8EyGSq0AAiDc7FEhKBUIQMABhQKQc7V9VYgOXKmhRRwOJKK+WI315JFeACn4tR/s+qSU8z6mL/eLNJwlJ+hfhsOg0+PJWnQAAAABJRU5ErkJggg==" InformativeScreenshot="07a6322a8a4ab6ba47690793182e48aa.png" Selector="&lt;wnd app='inflow.exe' ctrlname='FmNewRootWindow'/&gt;" />
+          </uix:NApplicationCard.TargetApp>
+        </uix:NApplicationCard>
+      </Sequence>
+    </FlowStep>
+  </Flowchart>
+</Activity>
